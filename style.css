@@ -195,6 +195,12 @@ button[type="submit"] {
 }
 /* floor price ended*/
 
+.img-rounded {
+  border-radius: 2rem;
+  height: 280px;
+  width: 100%;
+}
+
 .mapstext {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
