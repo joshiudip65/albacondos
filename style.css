@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navv {
+  color: black;
+  padding: 20px;
+}
+.logo1 {
+  font-size: 1.5rem;
+}
+.alba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alba .logo1 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.menu-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menus {
+  list-style: none;
+  display: flex;
+  gap: 1.7rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.menu-div a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.1s ease-in-out;
+}
+
+.menu-div a:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  text-decoration-color: black;
+  font-weight: bold;
+}
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.call .call-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 12px;
+  background-color: black;
+  color: white;
+}
+
+.page-one {
+  background-color: whitesmoke;
+}
+.containerssss {
+  padding: 0 100px;
+}
+.headtext {
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.recapfeatures {
+  gap: 1.5rem;
+  display: flex;
+  align-items: left;
+  padding-left: 0;
+}
+.recapfeatures li {
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.lowas {
+  font-weight: 600;
+  font-size: 18;
+  width: fit-content;
+}
+.shortdesc {
+  display: block;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 200;
+  width: 70%;
+}
+/* .page-one .containerssss .videos {
+  padding: 50px;
+} */
+
+.videos {
+  object-fit: cover;
+  object-position: center;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+  height: 400px !important;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+hr {
+  border-style: ridge;
+  border-width: 1px;
+  border-color: black;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+}
+
+.bordt {
+  border-top: 3px solid black;
+  position: sticky;
+}
+
+.imgreg {
+  width: 50%;
+  display: flex;
+  align-content: center;
+}
+
+.myclass {
+  border-left: 3px solid #000000;
+  padding-left: 9px;
+}
+
+.fw-mine2 {
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  font-size: 1rem;
+}
+.info {
+  padding-bottom: 100px;
+  background-color: aqua;
+}
+
+.extrainfohead {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.extrainfo {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.haveanyquestions {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 200;
+  padding-top: 20px;
+}
+/* floor pricing css started */
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.bed-plan {
+  padding: 5px 18px;
+  border: none;
+  background-color: #f8f9fa;
+}
+.bed-plan:hover {
+  background-color: black;
+  color: white;
+}
+.floor-text {
+  font-weight: 700;
+}
+/* floor price ended*/
+
+.mapstext {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: large;
+  padding-top: 30px;
+}
