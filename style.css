@@ -201,3 +201,6 @@ button[type="submit"] {
   font-size: large;
   padding-top: 30px;
 }
+html {
+  scroll-behavior: smooth;
+}
