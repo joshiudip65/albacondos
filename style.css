@@ -71,11 +71,12 @@
   color: white;
 }
 
-.page-one {
+/* .page-one {
   background-color: whitesmoke;
-}
+} */
 .containerssss {
   padding: 0 100px;
+  background-color: whitesmoke;
 }
 .headtext {
   font-size: 4rem;
