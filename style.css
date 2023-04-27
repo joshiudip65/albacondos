@@ -199,6 +199,8 @@ button[type="submit"] {
   border-radius: 2rem;
   height: 280px;
   width: 100%;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .mapstext {
