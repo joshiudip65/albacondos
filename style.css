@@ -220,3 +220,51 @@ button[type="submit"] {
 html {
   scroll-behavior: smooth;
 }
+body {
+  background-color: #f8f9fa;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  font-weight: 600;
+}
+
+.text-size-main {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.text-size {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-size: small;
+}
+* {
+  list-style: none;
+  text-decoration: none;
+}
+.h1-bold {
+  font-weight: bold;
+}
+.sub-headings {
+  font-family: "Times New Roman", Times, serif;
+  font-size: x-large;
+  font-weight: 600;
+}
+.points {
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2cm;
+  font-weight: 200;
+}
+.btn-primary {
+  justify-content: center;
+}
+
+.foot-up-img {
+  opacity: 0.25;
+  margin-bottom: -5px;
+  overflow: hidden;
+  width: 100% !important;
+}
