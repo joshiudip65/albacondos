@@ -6,6 +6,11 @@
   color: black;
   padding: 20px;
 }
+.form-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 .logo1 {
   font-size: 1.5rem;
 }
@@ -267,4 +272,8 @@ body {
   margin-bottom: -5px;
   overflow: hidden;
   width: 100% !important;
+}
+
+.footertext {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
