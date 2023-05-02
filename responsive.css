@@ -1,0 +1,45 @@
+@media (max-width: 991px) {
+  /* Adjust video size for medium-sized devices */
+  .videos {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Adjust video size for small devices */
+  .videos {
+    max-width: 100%;
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 991px) {
+  /* Adjust image size for medium-sized devices */
+  .displayimg {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Adjust image size for small devices */
+  .displayimg {
+    max-width: 100%;
+  }
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 991px) {
+  /* Adjust image size for medium-sized devices */
+  .first-row .col-md-4,
+  .second-row .col-md-4 {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Adjust image size for small devices */
+  .first-row .col-md-4,
+  .second-row .col-md-4 {
+    max-width: 100%;
+  }
+}
