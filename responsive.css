@@ -5,9 +5,16 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   /* Adjust video size for small devices */
   .videos {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    height: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    width: 100%;
     max-width: 100%;
   }
 }
@@ -24,6 +31,7 @@
   /* Adjust image size for small devices */
   .displayimg {
     max-width: 100%;
+    display: none;
   }
 }
 
